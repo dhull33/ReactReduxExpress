@@ -1,28 +1,62 @@
 import React, { Component } from 'react';
+import Contacts from './components/Contacts';
+import AddContacts from './components/AddContacts';
 import './App.css';
 
+//Generates unique id's
+import uuid from 'uuid';
 class App extends Component {
 
-    state = {users: []}
+    constructor(){
+        super();
 
-    componentDidMount() {
-        fetch('/users')
-            .then(res => res.json())
-            .then(users => this.setState({ users }));
+        //Initialize state
+        this.state = {
+            contacts: []
+        }
     }
 
+    componentWillMount(){
+
+        this.setState(
+            {
+                contacts: [
+                    {
+                        name: 'John Doe',
+                        email: 'john@gmail.com',
+                        phone: '770-564-9087',
+                        address: '',
+                        city: 'Houston',
+                        state: 'Texas',
+                        zip: '77006'
+
+                    }
+                ]
+            }
+        )
+    }
+
+    handleAddContacts(contact){
+        console.log(contact);
+
+        let contacts = this.state.contacts;
+
+        contacts.push(contact);
+
+        this.setState({contact: contacts});
+    }
 
     render() {
+
+
         return (
-            <div className="App">
-                <h1>Users</h1>
-                {this.state.users.map(user =>
-                    <div key={user.id}>{user.username}</div>
-                )}
+            <div>
+                <AddContacts addContacts={this.handleAddContacts.bind(this)}/>
+                <Contacts contacts={this.state.contacts} />
+
             </div>
         );
-  }
-
+    }
 }
 
 export default App;
