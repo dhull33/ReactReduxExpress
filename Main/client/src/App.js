@@ -20,21 +20,15 @@ class App extends Component {
 
         this.setState(
             {
-                contacts: [
-                    {
-                        name: 'John Doe',
-                        email: 'john@gmail.com',
-                        phone: '770-564-9087',
-                        address: '',
-                        city: 'Houston',
-                        state: 'Texas',
-                        zip: '77006',
-                        id: uuid.v4()
-
-                    }
-                ]
+                contacts: []
             }
         )
+
+    }
+    componentDidMount(){
+        fetch('/users')
+            .then(res => res.json())
+            .then(contacts => this.setState({ contacts }));
     }
 
     handleAddContacts(contact){
