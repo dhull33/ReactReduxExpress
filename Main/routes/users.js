@@ -1,24 +1,6 @@
 var express = require('express');
 var router = express.Router();
 const uuid = require('uuid');
-// set pg-promise to use bluebird as its promise library
-const Promise = require('bluebird');
-
-
-const initOptions = {
-    promiseLib: Promise,
-    capSQL: true
-};
-const pgp = require('pg-promise')(initOptions);
-
-const config = {
-    host: 'localhost',
-    port: 5432,
-    database: 'reactbackend',
-    user: 'postgres'
-}
-
-const db = pgp(config);
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
