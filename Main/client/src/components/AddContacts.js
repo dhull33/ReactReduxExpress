@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import uuid from 'uuid';
+
 
 class AddContacts extends Component{
 
@@ -11,7 +13,7 @@ class AddContacts extends Component{
     }
 
     handleSubmit(e){
-        console.log(this.refs.name.value)
+        console.log(this.refs.name.value);
 
         e.preventDefault();
 
@@ -29,7 +31,8 @@ class AddContacts extends Component{
                         address: this.refs.address.value,
                         city: this.refs.city.value,
                         state: this.refs.state.value,
-                        zip: this.refs.zip.value
+                        zip: this.refs.zip.value,
+                        id: uuid.v4(),
 
                     }
                 }, function(){

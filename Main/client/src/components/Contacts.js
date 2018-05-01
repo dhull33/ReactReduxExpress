@@ -22,7 +22,7 @@ class Contacts extends Component{
         return (
             <div>
                 {contactItems}<br />
-                Is this working?
+
             </div>
         )
     }

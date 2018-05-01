@@ -28,7 +28,8 @@ class App extends Component {
                         address: '',
                         city: 'Houston',
                         state: 'Texas',
-                        zip: '77006'
+                        zip: '77006',
+                        id: uuid.v4()
 
                     }
                 ]
