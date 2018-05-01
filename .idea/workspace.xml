@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d9c9b6-1b07-4a63-8b0c-a70956e23185" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/client/src/components/AddContacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/client/src/components/AddContacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/client/src/components/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/client/src/components/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/node_modules/pg-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Main/node_modules/pg-promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Main/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Main/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/routes/users.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,28 +21,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6729945">
+    <splitter split-orientation="horizontal" split-proportion="0.6736462">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.40163934">
+        <splitter split-orientation="horizontal" split-proportion="0.47540984">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="322">
-                      <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-687">
-                      <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="24" />
-                      <folding>
-                        <element signature="e#0#41#0" expanded="true" />
-                      </folding>
+                    <state relative-caret-position="161">
+                      <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
                     </state>
                   </provider>
                 </entry>
@@ -48,7 +39,28 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="ContactItem.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="163">
+                      <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+                      <folding>
+                        <element signature="e#0#41#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/Main/app.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="442">
+                      <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ContactItem.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/Main/client/src/components/ContactItem.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="989">
@@ -75,7 +87,16 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="AddContacts.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="postgresMain" pinned="false" current-in-tab="true">
+            <entry file="db://1bb4fc9a-27b3-499b-aa78-36923025b5b0/console#postgresMain">
+              <provider selected="true" editor-type-id="0.CONSOLE">
+                <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" current-schema="information_schema" session-id="MAIN">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddContacts.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Main/client/src/components/AddContacts.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-108">
@@ -104,9 +125,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Main/client/src/components/ContactItem.js" />
         <option value="$PROJECT_DIR$/Main/app.js" />
-        <option value="$PROJECT_DIR$/Main/client/src/App.js" />
         <option value="$PROJECT_DIR$/Main/client/src/components/Contacts.js" />
         <option value="$PROJECT_DIR$/Main/client/src/components/AddContacts.js" />
+        <option value="$PROJECT_DIR$/Main/routes/index.js" />
+        <option value="$PROJECT_DIR$/Main/client/src/App.js" />
+        <option value="[postgresMain]consoles/postgresMain" />
+        <option value="$PROJECT_DIR$/Main/routes/users.js" />
       </list>
     </option>
   </component>
@@ -163,13 +187,6 @@
               <item name="ReactExpress" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactExpress" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -179,6 +196,12 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactExpress" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
@@ -228,12 +251,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525113264829</updated>
       <workItem from="1525113266748" duration="3882000" />
-      <workItem from="1525183511076" duration="5220000" />
+      <workItem from="1525183511076" duration="8365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9102000" />
+    <option name="totallyTimeSpent" value="12247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,26 +270,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-130" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.50251764" side_tool="true" weight="0.37438422" />
-      <window_info anchor="right" id="SvgViewer" order="0" />
-      <window_info id="DB Browser" order="1" />
-      <window_info anchor="bottom" id="DB Execution Console" order="1" />
+      <window_info anchor="right" id="SvgViewer" order="1" />
+      <window_info anchor="right" id="DB Browser" order="0" visible="true" weight="0.13233724" />
+      <window_info active="true" anchor="bottom" id="DB Execution Console" order="1" visible="true" weight="0.32987553" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003062" side_tool="true" weight="0.32924336" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.3299389" />
-      <window_info active="true" anchor="bottom" x="-84" y="-565" width="1874" height="271" id="Terminal" order="10" sideWeight="0.4974824" visible="true" weight="0.3153527" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.12860192" />
+      <window_info anchor="bottom" x="-84" y="-565" width="1874" height="271" id="Terminal" order="10" sideWeight="0.4974824" weight="0.3153527" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12860192" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="right" id="JSON Utils" order="1" />
+      <window_info anchor="right" id="JSON Utils" order="2" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="3" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -339,9 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/views/error.jade">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -355,39 +376,12 @@
     <entry file="file://$PROJECT_DIR$/Main/views/index.jade">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,6 +417,50 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://[postgresMain]consoles/postgresMain">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" current-schema="information_schema" session-id="MAIN">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
