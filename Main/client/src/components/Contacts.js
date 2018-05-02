@@ -10,7 +10,7 @@ class Contacts extends Component{
         if(this.props.contacts){
 
             contactItems = this.props.contacts.map(contact =>{
-                console.log(contact);
+               // console.log(contact);
 
                 return(
                     <ContactItem key={contact.name} contact={contact}/>

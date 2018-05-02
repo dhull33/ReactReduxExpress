@@ -22,11 +22,22 @@ router.get('/', function(req, res, next) {
 
         }
     ]);
-
-    db.result('INSERT INTO contacts(name, email, phone, address, city, state, zip, id) VALUES($1, $2, $3, $4, $5, $6, $7, $8 )', [name, email, phone, address, city, state, zip, id]).catch(err=>{
-        console.log(err);
-        }
-    );
 });
+router.post('/users', (req,res,err) => {
+    let test = JSON.parse(res);
+
+    db.result('INSERT INTO contacts(contactname, email, phone, address, city, state, zip, id) VALUES($1, $2, $3, $4, $5, $6, $7, $8 )', [test.name, test.email, test.phone, test.address, test.city, test.state, test.zip, test.id])
+        .then((result)=>{
+            console.log(result);
+        })
+        .catch(err=>{
+                console.log(err);
+            }
+        );
+});
+
+
+
+
 
 module.exports = router;
