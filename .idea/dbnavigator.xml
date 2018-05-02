@@ -23,19 +23,36 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="03e95c51-fe69-433e-b720-b16ecda29a2f">
+        <schema name="pg_catalog" object-types="column, function, table, view" />
+        <schema name="public" object-types="column, constraint, function, index, sequence, table, dataset trigger, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="1bb4fc9a-27b3-499b-aa78-36923025b5b0">
       <console name="postgresMain" type="STANDARD"><![CDATA[CREATE DATABASE reactBackend;]]></console>
     </connection>
     <connection id="03e95c51-fe69-433e-b720-b16ecda29a2f">
-      <console name="ReactBackend" type="STANDARD" />
+      <console name="ReactBackend" type="STANDARD"><![CDATA[CREATE TABLE contacts (
+    id VARCHAR UNIQUE NOT NULL PRIMARY KEY,
+    contactName VARCHAR NOT NULL,
+    email VARCHAR,
+    phone VARCHAR,
+    address VARCHAR,
+    city VARCHAR, 
+    state VARCHAR, 
+    zip INT
+);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="1bb4fc9a-27b3-499b-aa78-36923025b5b0" />
     <connection id="03e95c51-fe69-433e-b720-b16ecda29a2f" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-list connection-id="03e95c51-fe69-433e-b720-b16ecda29a2f" dataset="public.contacts" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -313,7 +330,7 @@
     </dataset-grid-settings>
     <dataset-editor-settings>
       <text-editor-popup>
-        <active value="false" />
+        <active value="true" />
         <active-if-empty value="false" />
         <data-length-threshold value="100" />
         <popup-delay value="1000" />
@@ -358,7 +375,7 @@
     </dataset-editor-settings>
     <code-editor-settings>
       <general>
-        <show-object-navigation-gutter value="false" />
+        <show-object-navigation-gutter value="true" />
         <show-spec-declaration-navigation-gutter value="true" />
         <enable-spellchecking value="true" />
         <enable-reference-spellchecking value="false" />

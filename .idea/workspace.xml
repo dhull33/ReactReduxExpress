@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="69d9c9b6-1b07-4a63-8b0c-a70956e23185" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/public/javascripts/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/routes/dataBase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main/routes/users.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,98 +20,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6736462">
+    <splitter split-orientation="horizontal" split-proportion="0.4076087">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.4967811">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/Main/app.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="289">
-                      <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="46">
-                      <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="22">
-                      <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-                      <folding>
-                        <element signature="e#0#41#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="dataBase.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/Main/public/javascripts/dataBase.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="184">
-                      <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ContactItem.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Main/client/src/components/ContactItem.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="705">
-                      <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Contacts.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Main/client/src/components/Contacts.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="469">
-                      <caret line="24" selection-start-line="24" selection-end-line="24" />
-                      <folding>
-                        <element signature="e#0#39#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Main/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-126">
+                  <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dataBase.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Main/routes/dataBase.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ContactItem.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Main/client/src/components/ContactItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="989">
+                  <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Contacts.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Main/client/src/components/Contacts.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="446">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="postgresMain" pinned="false" current-in-tab="false">
-            <entry file="db://1bb4fc9a-27b3-499b-aa78-36923025b5b0/console#postgresMain">
+          <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="25" column="179" lean-forward="true" selection-start-line="25" selection-start-column="179" selection-end-line="25" selection-end-column="179" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-161">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReactBackend" pinned="false" current-in-tab="false">
+            <entry file="db://03e95c51-fe69-433e-b720-b16ecda29a2f/console#ReactBackend">
               <provider selected="true" editor-type-id="0.CONSOLE">
-                <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.0" current-schema="information_schema" session-id="MAIN">
+                <state line="2" column="33" selection-start="101" selection-end="101" vertical-scroll-proportion="-1.2777778" current-schema="public" session-id="MAIN">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AddContacts.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Main/client/src/components/AddContacts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-108">
-                  <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
+          <file leaf-file-name="contacts" pinned="false" current-in-tab="false">
+            <entry file="db://03e95c51-fe69-433e-b720-b16ecda29a2f/object#[schema/table][public/contacts]">
+              <provider selected="true" editor-type-id="1.DATA">
+                <state row-count="0" readonly="false">
+                  <columns>
+                    <column name="id" position="0" visible="true" />
+                    <column name="contactname" position="1" visible="true" />
+                    <column name="email" position="2" visible="true" />
+                    <column name="phone" position="3" visible="true" />
+                    <column name="address" position="4" visible="true" />
+                    <column name="city" position="5" visible="true" />
+                    <column name="state" position="6" visible="true" />
+                    <column name="zip" position="7" visible="true" />
+                  </columns>
+                  <sorting />
+                  <content-types />
                 </state>
               </provider>
             </entry>
@@ -132,11 +135,12 @@
         <option value="$PROJECT_DIR$/Main/client/src/components/Contacts.js" />
         <option value="$PROJECT_DIR$/Main/client/src/components/AddContacts.js" />
         <option value="$PROJECT_DIR$/Main/routes/index.js" />
+        <option value="$PROJECT_DIR$/Main/public/javascripts/dataBase.js" />
         <option value="$PROJECT_DIR$/Main/client/src/App.js" />
         <option value="[postgresMain]consoles/postgresMain" />
-        <option value="$PROJECT_DIR$/Main/routes/users.js" />
-        <option value="$PROJECT_DIR$/Main/public/javascripts/dataBase.js" />
+        <option value="[ReactBackend]consoles/ReactBackend" />
         <option value="$PROJECT_DIR$/Main/app.js" />
+        <option value="$PROJECT_DIR$/Main/routes/users.js" />
       </list>
     </option>
   </component>
@@ -157,10 +161,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1024" />
-    <option name="y" value="-1049" />
-    <option name="width" value="960" />
-    <option name="height" value="1057" />
+    <option name="x" value="316" />
+    <option name="y" value="236" />
+    <option name="width" value="1401" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -186,14 +190,20 @@
               <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactExpress" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactExpress" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactExpress" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactExpress" type="b2602c69:ProjectViewProjectNode" />
@@ -220,6 +230,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Main/routes" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -243,12 +258,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525113264829</updated>
       <workItem from="1525113266748" duration="3882000" />
-      <workItem from="1525183511076" duration="11197000" />
+      <workItem from="1525183511076" duration="16634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15079000" />
+    <option name="totallyTimeSpent" value="20516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -261,17 +276,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="797" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.50251764" side_tool="true" weight="0.37438422" />
       <window_info anchor="right" id="SvgViewer" order="1" />
-      <window_info anchor="right" id="DB Browser" order="0" weight="0.13233724" />
+      <window_info anchor="right" id="DB Browser" order="0" visible="true" weight="0.16829865" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" weight="0.32987553" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003062" side_tool="true" weight="0.32924336" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.3299389" />
-      <window_info anchor="bottom" x="-84" y="-565" width="1874" height="271" id="Terminal" order="10" sideWeight="0.4974824" visible="true" weight="0.3153527" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.12860192" />
+      <window_info active="true" anchor="bottom" x="-84" y="-565" width="1874" height="271" id="Terminal" order="10" sideWeight="0.4974824" visible="true" weight="0.3254818" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15605876" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="JSON Utils" order="2" />
       <window_info anchor="bottom" id="Find" order="4" />
@@ -399,7 +415,69 @@
     </entry>
     <entry file="db://[postgresMain]consoles/postgresMain">
       <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.0" current-schema="information_schema" session-id="MAIN">
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.081128746" current-schema="information_schema" session-id="MAIN">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://[ReactBackend]sessions/ReactBackend Sessions">
+      <provider selected="true" editor-type-id="0.SESSION_BROWSER">
+        <state>
+          <refresh-interval value="5" />
+          <sorting />
+          <filter>
+            <user value="" />
+            <host value="" />
+            <status value="" />
+          </filter>
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://[ReactBackend]tables/public/contacts">
+      <provider selected="true" editor-type-id="1.DATA">
+        <state row-count="0" readonly="false">
+          <columns>
+            <column name="id" position="0" visible="true" />
+            <column name="contactname" position="1" visible="true" />
+            <column name="email" position="2" visible="true" />
+            <column name="phone" position="3" visible="true" />
+            <column name="address" position="4" visible="true" />
+            <column name="city" position="5" visible="true" />
+            <column name="state" position="6" visible="true" />
+            <column name="zip" position="7" visible="true" />
+          </columns>
+          <sorting />
+          <content-types />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/routes/dataBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/client/src/components/ContactItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/client/src/components/Contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://[ReactBackend]consoles/ReactBackend">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="2" column="33" selection-start="101" selection-end="101" vertical-scroll-proportion="-1.2777778" current-schema="public" session-id="MAIN">
           <folding />
         </state>
       </provider>
@@ -414,51 +492,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/client/src/components/Contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/client/src/components/ContactItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="-161">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/public/javascripts/dataBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="-126">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="179" lean-forward="true" selection-start-line="25" selection-start-column="179" selection-end-line="25" selection-end-column="179" />
         </state>
       </provider>
     </entry>

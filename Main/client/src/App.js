@@ -3,8 +3,6 @@ import Contacts from './components/Contacts';
 import AddContacts from './components/AddContacts';
 import './App.css';
 
-//Generates unique id's
-import uuid from 'uuid';
 class App extends Component {
 
     constructor(){
@@ -16,15 +14,6 @@ class App extends Component {
         }
     }
 
-    componentWillMount(){
-
-        this.setState(
-            {
-                contacts: []
-            }
-        )
-
-    }
     componentDidMount(){
         fetch('/users')
             .then(res => res.json())
