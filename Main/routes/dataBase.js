@@ -3,8 +3,7 @@
 const Promise = require('bluebird');
 
 const initOptions = {
-    promiseLib: Promise,
-    capSQL: true
+    promiseLib: Promise
 };
 
 const pgp = require('pg-promise')(initOptions);

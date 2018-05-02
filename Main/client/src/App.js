@@ -21,7 +21,7 @@ class App extends Component {
     }
 
     handleAddContacts(contact){
-        console.log(contact);
+        //console.log(contact);
 
         let contacts = this.state.contacts;
 
