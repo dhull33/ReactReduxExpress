@@ -1,46 +1,40 @@
-import React, { Component } from 'react';
-import Contacts from './components/Contacts';
-import AddContacts from './components/AddContacts';
-import './App.css';
+import React, { Component } from "react";
+import Contacts from "./components/Contacts";
+import AddContacts from "./components/AddContacts";
+import "./App.css";
 
 class App extends Component {
+  constructor() {
+    super();
+    //Initialize state
+    this.state = {
+      contacts: []
+    };
+  }
 
-    constructor(){
-        super();
+  componentDidMount() {
+    fetch("/users")
+      .then(res => res.json())
+      .then(contacts => this.setState({ contacts }));
+  }
 
-        //Initialize state
-        this.state = {
-            contacts: []
-        }
-    }
+  handleAddContacts(contact) {
+    //console.log(contact);
+    let contacts = this.state.contacts;
 
-    componentDidMount(){
-        fetch('/users')
-            .then(res => res.json())
-            .then(contacts => this.setState({ contacts }));
-    }
+    contacts.push(contact);
 
-    handleAddContacts(contact){
-        //console.log(contact);
+    this.setState({ contact: contacts });
+  }
 
-        let contacts = this.state.contacts;
-
-        contacts.push(contact);
-
-        this.setState({contact: contacts});
-    }
-
-    render() {
-
-
-        return (
-            <div>
-                <AddContacts addContacts={this.handleAddContacts.bind(this)}/>
-                <Contacts contacts={this.state.contacts} />
-
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <AddContacts addContacts={this.handleAddContacts.bind(this)} />
+        <Contacts contacts={this.state.contacts} />
+      </div>
+    );
+  }
 }
 
 export default App;

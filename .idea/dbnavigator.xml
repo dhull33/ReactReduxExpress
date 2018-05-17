@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="03e95c51-fe69-433e-b720-b16ecda29a2f">
-        <schema name="public" object-types="column, function, sequence, table, view" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="1bb4fc9a-27b3-499b-aa78-36923025b5b0">
@@ -43,7 +39,10 @@
     city VARCHAR, 
     state VARCHAR, 
     zip INT
-);]]></console>
+);
+
+INSERT INTO contacts(id,contactname, email, phone, address, city, state, zip) 
+VALUES(2, 'David Hull' , 'hjdhrubn@gmail.com', 123-456-7890, '123 this street', 'Houston', 'Texas', 77006);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
